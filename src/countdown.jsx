@@ -25,29 +25,29 @@ const Countdown = () => {
     let element = ""
     for (const c of expression) {
       if (c === "2") {
-        element += `<img class="time" width="80" height="120" src="${image2}">`
+        element += `<img class="time" width="80" height="120" src="${image2}">&nbsp;`
       } else if (c === "4") {
-        element += `<img class="time" width="80" height="120" src="${image4}">`
+        element += `<img class="time" width="80" height="120" src="${image4}">&nbsp;`
       } else if (c === "8") {
-        element += `<img class="time" width="80" height="120" src="${image8}">`
+        element += `<img class="time" width="80" height="120" src="${image8}">&nbsp;`
       } else if (c === "*") {
         element += `<span>&nbsp;×&nbsp;</span>`
       } else if (c === "/") {
         element += `<span>&nbsp;÷&nbsp;</span>`
       } else if (c === "1") {
-        element += `<img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">`
+        element += `<img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">&nbsp;`
       } else if (c === "9") {
-        element += `<img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}"> + <img class="time" width="80" height="120" src="${image8}">`
+        element += `<img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}"> + <img class="time" width="80" height="120" src="${image8}">&nbsp;`
       } else if (c === "7") {
-        element += `<img class="time" width="80" height="120" src="${image8}"> ➖ <img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">`
+        element += `<img class="time" width="80" height="120" src="${image8}"> ➖ <img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">&nbsp;`
       } else if (c === "6") {
-        element += `<img class="time" width="80" height="120" src="${image2}"> ➕ <img class="time" width="80" height="120" src="${image4}">`
+        element += `<img class="time" width="80" height="120" src="${image2}"> ➕ <img class="time" width="80" height="120" src="${image4}">&nbsp;`
       } else if (c === "5") {
-        element += `<img class="time" width="80" height="120" src="${image2}"> ➕ <img class="time" width="80" height="120" src="${image4}">`
+        element += `<img class="time" width="80" height="120" src="${image2}"> ➕ <img class="time" width="80" height="120" src="${image4}">&nbsp;`
       } else if (c === "3") {
-        element += `<img class="time" width="80" height="120" src="${image4}"> ➖ <img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">`
+        element += `<img class="time" width="80" height="120" src="${image4}"> ➖ <img class="time" width="80" height="120" src="${image2}"> ➗ <img class="time" width="80" height="120" src="${image2}">&nbsp;`
       } else if (c === "0") {
-        element += `<img class="time" width="80" height="120" src="${image2}"> ➖ <img class="time" width="80" height="120" src="${image2}">`
+        element += `<img class="time" width="80" height="120" src="${image2}"> ➖ <img class="time" width="80" height="120" src="${image2}">&nbsp;`
       } else {
         element += `<span>&nbsp;${c}&nbsp;</span>`
       }
