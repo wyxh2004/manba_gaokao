@@ -5,7 +5,7 @@ import image8 from "./images/8.png";
 import image24 from "./images/24.png";
 import { findExpression } from './algorithm';
 
-const targetTime = new Date(2024, 5, 7, 9).getTime();
+const targetTime = new Date(2025, 5, 7, 9).getTime();
 let prevDay, prevHr, prevMin = -1;
 let prevDayEle, prevHrEle, prevMinEle;
 
@@ -60,7 +60,7 @@ const Countdown = () => {
   if (timeLeft <= 0) {
     return (
       <div>
-        <h1>距离<img src={image24} width="20" height="80" id="titleImage"/>届高考：</h1>
+        <h1>距离25届高考：</h1>
         <p id="blessing">祝各位考生金榜题名！</p>
       </div>
     )
@@ -86,7 +86,7 @@ const Countdown = () => {
 
   return (
     <div>
-      <h2><img src={image24} id="titleImage"/>届高考倒计时：</h2>
+      <h2>25届高考倒计时：</h2>
       {prevDayEle} <span>&nbsp;日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       
       {prevHrEle} <span>&nbsp;时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
